@@ -1,0 +1,27 @@
+﻿body {
+
+}
+
+.item-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+.game-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.review-stars {
+    margin: 0px 10px;
+    color: darkblue;
+}
+
+
+
