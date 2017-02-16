@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dump\Index.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -115,7 +116,6 @@
     <Content Include="dump\hehe1\hehe1.ascx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\jaiunprobleme.css" />
-    <Content Include="dump\Index.aspx" />
     <Content Include="dump\Shared\_Header.ascx" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />

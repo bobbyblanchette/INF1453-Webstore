@@ -1,6 +1,6 @@
-﻿<%@ Register Src="~/dump/Shared/_Header.ascx" TagPrefix="uc1" TagName="_Header" %>
+﻿﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="CSStest.dump.Index" %>
+<%@ Register Src="~/dump/Shared/_Header.ascx" TagPrefix="uc1" TagName="_Header" %>
 <%@ Register Src="~/dump/hehe1/hehe1.ascx" TagPrefix="uc1" TagName="hehe1" %>
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="CSStest.dump.Index" %>
 
 <!DOCTYPE html>
 
