@@ -78,7 +78,7 @@
                 <h3 class="modal-title">Create a new account</h3>
             </div>
             <div class="modal-body">
-                <form class="form-horizontal" runat="server" data-toggle="validator" role="form">
+                <div class="form-horizontal" runat="server" data-toggle="validator" role="form">
                     <div class="form-group">
                         <label for="registerUsername" class="col-sm-3 control-label">Username</label>
                         <div class="col-sm-9">
@@ -134,7 +134,7 @@
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
     </div>

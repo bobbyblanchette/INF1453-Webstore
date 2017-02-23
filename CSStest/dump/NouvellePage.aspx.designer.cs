@@ -10,7 +10,7 @@
 namespace CSStest.dump {
     
     
-    public partial class Index {
+    public partial class NouvellePage {
         
         /// <summary>
         /// Contrôle form1.
@@ -22,22 +22,13 @@ namespace CSStest.dump {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Contrôle _Header.
+        /// Contrôle searchDropDown.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.UserControl _Header;
-        
-        /// <summary>
-        /// Contrôle hehe1.
-        /// </summary>
-        /// <remarks>
-        /// Champ généré automatiquement.
-        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.UserControl hehe1;
+        protected global::System.Web.UI.WebControls.DropDownList searchDropDown;
         
         /// <summary>
         /// Contrôle searchTextBox.
@@ -65,14 +56,5 @@ namespace CSStest.dump {
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView searchGridView;
-        
-        /// <summary>
-        /// Contrôle GridView1.
-        /// </summary>
-        /// <remarks>
-        /// Champ généré automatiquement.
-        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
     }
 }

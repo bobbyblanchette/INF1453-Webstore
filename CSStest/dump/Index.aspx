@@ -15,12 +15,42 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
+        <!----
         <uc1:_Header runat="server" ID="_Header" />
     
         <uc1:hehe1 runat="server" ID="hehe1" />
+            ---->
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h1>RESEARCH AREA</h1>
+                </div>
+                <div class="panel-body">
+                    <div class="row form-group">
+                        <div class="col-xs-2">
+                            <label for="searchTextBox" class="control-label">Search clients:</label>
+                        </div>
+                        <div class="col-xs-8">
+                            <asp:TextBox ID="searchTextBox" class="form-control" runat="server"></asp:TextBox>
+                        </div>
+                        <div class="col-xs-2">
+                            <asp:Button ID="searchButton" class="btn btn-primary form-control" runat="server" Text="Go!" OnClick="searchButton_Click" />
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 table-responsive">
+                            <asp:GridView ID="searchGridView" class="table table-striped table-bordered" runat="server" UseAccessibleHeader="True" GridLines="None"></asp:GridView>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         
+
         <asp:GridView ID="GridView1" runat="server"></asp:GridView>
+
+
 
         <script src="../scripts/jquery-3.1.1.min.js"></script>
         <script src="../scripts/bootstrap.min.js"></script>

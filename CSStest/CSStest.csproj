@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dump\Index.aspx" />
+    <Content Include="dump\NouvellePage.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -152,6 +153,13 @@
     </Compile>
     <Compile Include="dump\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dump\NouvellePage.aspx.cs">
+      <DependentUpon>NouvellePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dump\NouvellePage.aspx.designer.cs">
+      <DependentUpon>NouvellePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="dump\Shared\_Header.ascx.cs">
       <DependentUpon>_Header.ascx</DependentUpon>
